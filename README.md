@@ -19,7 +19,7 @@ $ export LD_PRELOAD=/tmp/libmalloct.so
 
 $ echo "export LD_PRELOAD=/tmp/libmalloct.so" >> /home/$USER/.kshrc
 
-> set to which shell you are using
+\# set to which shell you are using
 
 # nc
 **you can set custom port in src/config.h**
