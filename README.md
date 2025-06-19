@@ -17,7 +17,7 @@ $ LD_PRELOAD=./libmalloct.so ls -hl /tmp/*
 
 $ export LD_PRELOAD=/tmp/libmalloct.so
 
-$ echo "export LD_PRELOAD=/tmp/libmalloct.so" > /home/$USER/.kshrc
+$ echo "export LD_PRELOAD=/tmp/libmalloct.so" >> /home/$USER/.kshrc
 
 > set to which shell you are using
 
