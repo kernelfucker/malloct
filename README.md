@@ -20,6 +20,7 @@ $ export LD_PRELOAD=/tmp/libmalloct.so
 $ echo "export LD_PRELOAD=/tmp/libmalloct.so" >> /home/$USER/.kshrc
 
 > set to which shell you are using
+
 > you can set to the program you will use 
 
 # nc
