@@ -1,7 +1,7 @@
 # malloct
 LD_PRELOAD rootkit
 
-# make
+# make / compile
 $ make
 
 # usage
