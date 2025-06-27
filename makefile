@@ -5,7 +5,7 @@ target=libmalloct.so
 
 sources=src/*.c
 
-all= $(target)
+all: $(target)
 
 $(target): $(sources)
 	$(cc) $(cflags) -o $@ $^
