@@ -20,9 +20,9 @@ $ echo "export LD_PRELOAD=/tmp/libmalloct.so" >> /home/$USER/.kshrc
 > you can set to the program you will use 
 
 # note
-**is a core LD_PRELOAD rootkit**
+is a **core** LD_PRELOAD rootkit
 
-**default prefix is lifeless-**
+default prefix is **lifeless-**
 
 # nc
 **you can set custom port in src/config.h**
